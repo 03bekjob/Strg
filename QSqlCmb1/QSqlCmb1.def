@@ -1,0 +1,6 @@
+; QSqlCmb1.def : Declares the module parameters for the DLL.
+
+LIBRARY      "QSqlCmb1"
+
+EXPORTS
+    ; Explicit exports can go here

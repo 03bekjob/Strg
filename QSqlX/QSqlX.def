@@ -1,0 +1,6 @@
+; QSqlX.def : Declares the module parameters for the DLL.
+
+LIBRARY      "QSqlX"
+
+EXPORTS
+    ; Explicit exports can go here

@@ -1,0 +1,6 @@
+; SynCA.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SynCA"
+
+EXPORTS
+    ; Explicit exports can go here

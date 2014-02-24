@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RDllDb", "RDllDb.vcproj", "{E39983F4-A956-40A3-A943-7B03D9315832}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EDllDb", "..\EDllDb\EDllDb.vcproj", "{86627BDD-E4CA-4BED-BA32-ABE6CAD839CC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "W32RDllDb", "..\W32RDllDb\W32RDllDb.vcproj", "{C6FF8B28-2B25-4983-8514-50650F9701F6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E39983F4-A956-40A3-A943-7B03D9315832}.Debug.ActiveCfg = Debug|Win32
+		{E39983F4-A956-40A3-A943-7B03D9315832}.Debug.Build.0 = Debug|Win32
+		{E39983F4-A956-40A3-A943-7B03D9315832}.Release.ActiveCfg = Release|Win32
+		{E39983F4-A956-40A3-A943-7B03D9315832}.Release.Build.0 = Release|Win32
+		{86627BDD-E4CA-4BED-BA32-ABE6CAD839CC}.Debug.ActiveCfg = Debug|Win32
+		{86627BDD-E4CA-4BED-BA32-ABE6CAD839CC}.Debug.Build.0 = Debug|Win32
+		{86627BDD-E4CA-4BED-BA32-ABE6CAD839CC}.Release.ActiveCfg = Release|Win32
+		{86627BDD-E4CA-4BED-BA32-ABE6CAD839CC}.Release.Build.0 = Release|Win32
+		{C6FF8B28-2B25-4983-8514-50650F9701F6}.Debug.ActiveCfg = Debug|Win32
+		{C6FF8B28-2B25-4983-8514-50650F9701F6}.Debug.Build.0 = Debug|Win32
+		{C6FF8B28-2B25-4983-8514-50650F9701F6}.Release.ActiveCfg = Release|Win32
+		{C6FF8B28-2B25-4983-8514-50650F9701F6}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

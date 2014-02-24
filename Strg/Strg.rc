@@ -1,0 +1,615 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\Strg.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Strg.ico"
+IDR_StrgTYPE            ICON                    "res\\StrgDoc.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Sen&d...",                    ID_FILE_SEND_MAIL
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Редактор"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Просмотр"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "Помощь"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Strg...",              ID_APP_ABOUT
+    END
+    POPUP "Справочники"
+    BEGIN
+        POPUP "Общие"
+        BEGIN
+            MENUITEM "Сокращения",                  ID_32772
+            MENUITEM "Кладр",                       ID_32773
+            MENUITEM "Виды форм собственности",     ID_32774
+            MENUITEM "Банки",                       ID_32775
+            MENUITEM "Муж. имена",                  ID_32776
+            MENUITEM "Муж. отчества",               ID_32777
+            MENUITEM "Жен. имена",                  ID_32778
+            MENUITEM "Жен. отчества",               ID_32779
+            MENUITEM "Виды документов",             ID_32780
+        END
+        MENUITEM SEPARATOR
+        POPUP "Курсы валют"
+        BEGIN
+            MENUITEM "Виды валют",                  ID_32782
+            MENUITEM "Виды курсов валют",           ID_32783
+            MENUITEM "Курс валют",                  ID_32784
+        END
+        MENUITEM SEPARATOR
+        POPUP "Товар"
+        BEGIN
+            MENUITEM "Наименование шт.",            ID_32786
+            MENUITEM "Единицы измерения",           ID_32787
+            MENUITEM "Товар",                       ID_32788
+            MENUITEM "Вид коробки",                 ID_32789
+            MENUITEM "Вид упаковки",                ID_32790
+            MENUITEM "Товар-упаковка",              ID_32796
+            MENUITEM "Товар-склад",                 ID_32791
+            MENUITEM "Товар-сертификат",            ID_32792
+            MENUITEM "Классификатор",               ID_32793
+            MENUITEM "Товар-группа",                ID_32794
+            MENUITEM "Группы",                      ID_32795
+        END
+        MENUITEM SEPARATOR
+        POPUP "Операции"
+        BEGIN
+            MENUITEM "Настройка движения денег",    ID_32798
+            MENUITEM "Операции прихода",            ID_32799
+            MENUITEM "Операции расхода",            ID_32800
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Склады",                      ID_32801
+        MENUITEM SEPARATOR
+        MENUITEM "Контрагенты",                 ID_32802
+        MENUITEM "Синонимы",                    ID_32861
+        MENUITEM "Поставщики",                  ID_32803
+        MENUITEM "Получатели",                  ID_32804
+        MENUITEM "Производители",               ID_32805
+        MENUITEM SEPARATOR
+        POPUP "Адресные"
+        BEGIN
+            MENUITEM "Государства",                 ID_32808
+            MENUITEM "Края, обл. России, районы...", ID_32809
+            MENUITEM "Вид адреса",                  ID_32810
+            MENUITEM "Улицы, микрорайоны...",       ID_32811
+        END
+        POPUP "Сокращения"
+        BEGIN
+            MENUITEM "Улицы, м-ны...",              ID_32812
+            MENUITEM "Административные здания",     ID_32813
+            MENUITEM "Терреториальный единицы России", ID_32814
+        END
+        MENUITEM SEPARATOR
+        POPUP "Налоги"
+        BEGIN
+            MENUITEM "НДС",                         ID_32816
+            MENUITEM "Настройка НДС",               ID_32817
+        END
+        POPUP "Виды скидок"
+        BEGIN
+            MENUITEM "Скидки прихода",              ID_32819
+            MENUITEM "Скидки расхода",              ID_32820
+        END
+        POPUP "Виды цен"
+        BEGIN
+            MENUITEM "Базовые цены",                ID_32822
+            MENUITEM "Операции с ценами",           ID_32823
+        END
+    END
+    POPUP "Склад"
+    BEGIN
+        MENUITEM "Приход",                      ID_32824
+        POPUP "Расход"
+        BEGIN
+            MENUITEM "Накладные",                   ID_32862
+        END
+    END
+    POPUP "Бухгалтерия"
+    BEGIN
+        POPUP "Цены"
+        BEGIN
+            MENUITEM "Прейскурантный",              ID_32827
+            MENUITEM "Базовые",                     ID_32828
+            MENUITEM "% линейки цен",               ID_32829
+        END
+        POPUP "Скидки"
+        BEGIN
+            MENUITEM "Приход",                      ID_32831
+            POPUP "Расход"
+            BEGIN
+                MENUITEM "На общ. сумму нак.",          ID_32833
+                POPUP "Контр. агенты"
+                BEGIN
+                    MENUITEM "индивидульная",               ID_32835
+                    MENUITEM "от оборота",                  ID_32836
+                END
+            END
+        END
+        POPUP "Оплата"
+        BEGIN
+            MENUITEM "Приход",                      ID_32838
+            MENUITEM "Расход",                      ID_32839
+            MENUITEM "Отчёт",                       ID_32840
+        END
+        MENUITEM SEPARATOR
+        POPUP "Кадры"
+        BEGIN
+            MENUITEM "Отделы",                      ID_32842
+            MENUITEM "Должности",                   ID_32843
+            MENUITEM "Сотрудники",                  ID_32844
+            MENUITEM "Сетевые группы",              ID_32845
+            MENUITEM "Сетевые имена",               ID_32846
+        END
+        MENUITEM SEPARATOR
+        POPUP "Внутр. хоз. операции"
+        BEGIN
+            MENUITEM "приход",                      ID_32848
+            MENUITEM "расход",                      ID_32849
+            MENUITEM "списание по уч. ценам",       ID_32850
+            MENUITEM "приход по уч. ценам",         ID_32851
+        END
+        MENUITEM "Движение товара",             ID_32852
+        POPUP "Учёт"
+        BEGIN
+            MENUITEM "Статус накладных",            ID_32854
+            MENUITEM "Отчёт по остаткам",           ID_32855
+            MENUITEM "Отчёт по учёту",              ID_32856
+            MENUITEM "Отстатки в уч. ценах",        ID_32857
+        END
+        POPUP "Синхр. данных"
+        BEGIN
+            MENUITEM "Расход",                      ID_32859
+            MENUITEM "Приход",                      ID_32860
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 288, 130
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Strg Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,40,25,119,15
+    DEFPUSHBUTTON   "OK",IDOK,231,7,50,16,WS_GROUP
+    ICON            IDI_ICON1,IDC_STATIC,7,7,21,20
+    LTEXT           "Баинов Евгений Кимович",IDC_STATIC,39,47,97,8
+    LTEXT           "Телефоны:",IDC_STATIC,39,59,38,8
+    LTEXT           "Саяногорск (39042) 2-98-05",IDC_STATIC,39,74,100,8
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 339, 188
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,225,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,282,7,50,14
+    CONTROL         "",IDC_DATAGRID1,"{CDE57A43-8B86-11D0-B3C6-00A0C90AEA82}",WS_TABSTOP,7,30,325,132
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Strg.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "Strg.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG1 DLGINIT
+BEGIN
+    IDC_DATAGRID1, 0x37a, 525, 0
+0x0024, 0x0000, 0x0043, 0x0044, 0x0045, 0x0035, 0x0037, 0x0041, 0x0035, 
+0x0035, 0x002d, 0x0038, 0x0042, 0x0038, 0x0036, 0x002d, 0x0031, 0x0031, 
+0x0044, 0x0030, 0x002d, 0x0062, 0x0033, 0x0043, 0x0036, 0x002d, 0x0030, 
+0x0030, 0x0041, 0x0030, 0x0043, 0x0039, 0x0030, 0x0041, 0x0045, 0x0041, 
+0x0038, 0x0032, 0x0029, 0x0000, 0x0001, 0x0000, 0x0021, 0x0000, 0x002a, 
+0x0000, 0x0000, 0x0001, 0x8001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0002, 0x8001, 0x0001, 0x0000, 0x2100, 0x3443, 0x0812, 0x0000, 0x7000, 
+0x0032, 0x3900, 0x0016, 0x6000, 0xd5e8, 0x005a, 0x0600, 0x0100, 0x0000, 
+0x0200, 0x0000, 0x0500, 0x0000, 0x0880, 0x0000, 0x0080, 0x8000, 0x003f, 
+0x7000, 0x0041, 0x0000, 0x0100, 0x0201, 0x0100, 0x0100, 0x0101, 0x0001, 
+0x0001, 0x0000, 0x0300, 0xe352, 0x910b, 0xce8f, 0x9d11, 0x00e3, 0x00aa, 
+0xb84b, 0x0151, 0x00cc, 0x9000, 0x4401, 0x0142, 0x0600, 0x6154, 0x6f68, 
+0x616d, 0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 
+0xcc01, 0x0000, 0x0190, 0x4244, 0x0001, 0x5406, 0x6861, 0x6d6f, 0x0061, 
+0x0000, 0x1200, 0x0000, 0x4400, 0x6100, 0x7400, 0x6100, 0x4700, 0x7200, 
+0x6900, 0x6400, 0x3100, 0x0600, 0x0000, 0x0400, 0x0000, 0x0000, 0x0000, 
+0x0100, 0x0000, 0x0100, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0100, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x9000, 0x8356, 0x0b6d, 0xd090, 0x9411, 0x0084, 0xc9a0, 0x1011, 0x50ed, 
+0x2638, 0x026b, 0x0600, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x3000, 0x3000, 0x3500, 0x5c00, 0x5000, 
+0x7200, 0x1900, 0x0004, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x9000, 0x8356, 0x0b6d, 0xd090, 0x9411, 0x0084, 0xc9a0, 0x1011, 0x50ed, 
+0x2638, 0x026b, 0x0600, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x3000, 0x3000, 0x3500, 0x5c00, 0x5000, 
+0x7200, 0x1900, 0x0004, 0x0000, 0x0000, 0x0000, 0x0000, 0x0200, 0x0000, 
+0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x6c00, 0x0042, 0x0000, 0x0200, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6c00, "\102" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Склад\nпрограммный комплекс\nStrg\n\n\nStrg.Document\nStrg.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Склад"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nНовый документ"
+    ID_FILE_OPEN            "Open an existing document\nОткрыть"
+    ID_FILE_CLOSE           "Close the active document\nЗакрыть"
+    ID_FILE_SAVE            "Save the active document\nСохранить"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nСохранить как..."
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nПечать"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nПредварительный просмотр печати"
+    ID_FILE_SEND_MAIL       "Send the active document through electronic mail\nОтправить почту"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nО программе"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nВыход"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nКопировать"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nВырезать"
+    ID_EDIT_FIND            "Find the specified text\nНайти"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nВставить"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\Strg.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

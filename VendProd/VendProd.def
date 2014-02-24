@@ -1,0 +1,6 @@
+; VendProd.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VendProd"
+
+EXPORTS
+    ; Explicit exports can go here

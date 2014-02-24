@@ -1,0 +1,6 @@
+; RprBill.def : Declares the module parameters for the DLL.
+
+LIBRARY      "RprBill"
+
+EXPORTS
+    ; Explicit exports can go here

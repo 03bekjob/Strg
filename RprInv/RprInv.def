@@ -1,0 +1,6 @@
+; RprInv.def : Declares the module parameters for the DLL.
+
+LIBRARY      "RprInv"
+
+EXPORTS
+    ; Explicit exports can go here

@@ -1,0 +1,6 @@
+; Grp.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Grp"
+
+EXPORTS
+    ; Explicit exports can go here

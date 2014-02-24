@@ -1,0 +1,6 @@
+; Letter.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Letter"
+
+EXPORTS
+    ; Explicit exports can go here

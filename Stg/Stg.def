@@ -1,0 +1,6 @@
+; Stg.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Stg"
+
+EXPORTS
+    ; Explicit exports can go here

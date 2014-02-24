@@ -1,0 +1,6 @@
+; TabVlt.def : Declares the module parameters for the DLL.
+
+LIBRARY      "TabVlt"
+
+EXPORTS
+    ; Explicit exports can go here

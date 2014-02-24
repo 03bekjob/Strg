@@ -1,0 +1,6 @@
+; OrdWrap.def : Declares the module parameters for the DLL.
+
+LIBRARY      "OrdWrap"
+
+EXPORTS
+    ; Explicit exports can go here

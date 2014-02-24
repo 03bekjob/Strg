@@ -1,0 +1,6 @@
+; ShotWord.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ShotWord"
+
+EXPORTS
+    ; Explicit exports can go here

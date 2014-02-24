@@ -1,0 +1,6 @@
+; NameWom.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NameWom"
+
+EXPORTS
+    ; Explicit exports can go here

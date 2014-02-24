@@ -1,0 +1,6 @@
+; Grmt.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Grmt"
+
+EXPORTS
+    ; Explicit exports can go here

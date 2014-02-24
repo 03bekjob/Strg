@@ -1,0 +1,6 @@
+; SlsDscAg.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SlsDscAg"
+
+EXPORTS
+    ; Explicit exports can go here

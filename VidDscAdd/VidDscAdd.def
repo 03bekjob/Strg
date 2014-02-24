@@ -1,0 +1,6 @@
+; VidDscAdd.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VidDscAdd"
+
+EXPORTS
+    ; Explicit exports can go here

@@ -1,0 +1,6 @@
+; Clsfk.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Clsfk"
+
+EXPORTS
+    ; Explicit exports can go here

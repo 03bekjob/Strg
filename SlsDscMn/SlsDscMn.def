@@ -1,0 +1,6 @@
+; SlsDscMn.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SlsDscMn"
+
+EXPORTS
+    ; Explicit exports can go here

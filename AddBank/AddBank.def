@@ -1,0 +1,6 @@
+; AddBank.def : Declares the module parameters for the DLL.
+
+LIBRARY      "AddBank"
+
+EXPORTS
+    ; Explicit exports can go here

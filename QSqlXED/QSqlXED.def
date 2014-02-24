@@ -1,0 +1,6 @@
+; QSqlXED.def : Declares the module parameters for the DLL.
+
+LIBRARY      "QSqlXED"
+
+EXPORTS
+    ; Explicit exports can go here

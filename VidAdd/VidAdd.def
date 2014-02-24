@@ -1,0 +1,6 @@
+; VidAdd.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VidAdd"
+
+EXPORTS
+    ; Explicit exports can go here

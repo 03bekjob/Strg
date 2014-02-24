@@ -1,0 +1,6 @@
+; SbNmMan.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SbNmMan"
+
+EXPORTS
+    ; Explicit exports can go here

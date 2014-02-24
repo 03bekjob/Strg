@@ -1,0 +1,6 @@
+; TNDC.def : Declares the module parameters for the DLL.
+
+LIBRARY      "TNDC"
+
+EXPORTS
+    ; Explicit exports can go here

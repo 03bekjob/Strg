@@ -1,0 +1,6 @@
+; QPrcCst.def : Declares the module parameters for the DLL.
+
+LIBRARY      "QPrcCst"
+
+EXPORTS
+    ; Explicit exports can go here

@@ -1,0 +1,6 @@
+; VwClcDsc.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VwClcDsc"
+
+EXPORTS
+    ; Explicit exports can go here

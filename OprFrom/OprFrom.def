@@ -1,0 +1,6 @@
+; OprFrom.def : Declares the module parameters for the DLL.
+
+LIBRARY      "OprFrom"
+
+EXPORTS
+    ; Explicit exports can go here

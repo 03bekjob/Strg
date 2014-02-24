@@ -1,0 +1,6 @@
+; PrvCst.def : Declares the module parameters for the DLL.
+
+LIBRARY      "PrvCst"
+
+EXPORTS
+    ; Explicit exports can go here
